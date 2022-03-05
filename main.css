@@ -1,0 +1,175 @@
+
+
+body {
+	margin: 20px;
+	padding: 0;
+	background: #444444;
+	font: bold small Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	color: #FFC971;
+}
+
+h1, h2, h3 {
+}
+
+h4, h5, h6 {
+}
+
+p, ul, ol, blockquote {
+	margin-top: 0;
+}
+
+a {
+	color: #6F4503;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
+}
+
+/* Header */
+
+#logo {
+	width: 780px;
+	height: auto;
+	margin: 0 auto;
+	padding: 35px 0 15px 0; 
+	background:#000066 url(images/bigbg.jpg) repeat-x;
+	border: 2px solid #000000;
+	border-bottom: 2px solid #000000;;
+}
+
+#logo h1 {
+	text-align: center;
+	font-size: 3em;
+		border-bottom: 2px solid #000000;
+}
+
+#logo h2 {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFC971;
+}
+
+/* Menu */
+
+#menu {
+	width: 780px;
+	height: 36px;
+	margin: 0 auto;
+	background: #DA8802;
+	border: 2px solid #000000;
+	border-top: 2px solid #000000;
+	border-bottom: 0px solid #000000;
+	text-align: center ;
+}
+ 
+
+#menu ul {
+    margin: 2px auto;
+    /*line-height: 1.4;*/
+	padding-left: 10%;
+	list-style: none;
+}
+
+#menu li {
+	text-align: center;
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 98px;
+	height: 26px;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #FCEB8A;
+}
+
+#menu a:hover, #menu .active a {
+	background: #9C5903;
+	color: #FFFFFF;
+}
+
+/* Splash */
+
+#image {
+	width: 780px;
+	margin: 0 auto;
+	background: #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+}
+
+/* Content */
+
+#body {
+	width: 780px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border: 2px solid #000000;
+}
+
+#body .title {
+	padding: 10px 20px;
+	background: #FFEE8E url(images/smallbg.gif) repeat-x left bottom;
+	font-size: 1em;
+}
+
+#body .story {
+	padding: 20px;
+	border: 0px solid #8D5700;
+}
+#body h2 {
+	text-align: left;
+	font-size: 1.3em;
+	color: #8D5700;
+}
+
+/* bot*/
+
+#bot {
+	width: 760px;
+	margin: 0 auto;
+	padding: 10px 10px;
+	background: #DA8802 url(images/bigbg.jpg) ;
+	border: 2px solid #000000;
+	border-top: none;
+}
+
+#bot p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: x-small;
+	color: #DA8802;
+}
+
+#bot a {
+	color: #DA8802;
+}
